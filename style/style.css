@@ -1,3 +1,5 @@
+
+
 /* -- RESET -- */
 * {
   padding: 0;
@@ -54,6 +56,10 @@ img {
   min-height: 200px;
 }
 
+.rowH-min-300{
+  min-height: 300px;
+}
+
 .rowH-min-400{
   min-height: 400px;
 }
@@ -77,18 +83,70 @@ aside .container{
 
 /* -- DEBUG -- */
 .debug .container {
-  background-color: aqua;
+  border: 1px dotted rgba(0, 0, 0, 0.25);
   padding: 10px;
 }
 
 .debug .row {
-  background-color: blueviolet;
+  border: 1px dotted rgba(0, 0, 0, 0.25);
   padding: 10px;
 }
 
 /* ho visto come aveva fatto Gian nella lezione ma se ti puo fare piacere non ho fatto copia e incolla ;) */
 .debug [class^="col"] {
-  border: 1px solid rgba(255, 0, 0, 0.39);
+  border: 1px dotted black;
+  background-color: #DAA520;
   padding: 10px;
   min-height: 10px;
 }
+.debug header {
+  background-color: #ADD8E6;
+}
+.debug aside {
+  background-color: #00008B;
+}
+.debug main .even {
+  background-color: #D3D3D3;
+}
+.debug .aside-col {
+  background-color: #EE82EE;
+}
+.debug .main-col {
+  background-color: #1E90FF ;
+}
+.debug .info-col {
+  background-color: #FFC0CB ;
+}
+.debug .big-col {
+  background-color: #228B22 ;
+}
+.debug footer {
+  background-color: #23272A ;
+}
+.debug .footer-info {
+  background-color: #F08080 ;
+}
+.debug .footer-ref-site {
+  background-color: #20B2AA ;
+}
+.debug footer button {
+  background-color: #F08080 ;
+  padding: 5px;
+}
+.debug .footer-bt {
+  background-color: #ADD8E6 ;
+}footer-bt
+
+/* COLOR PG
+#ADD8E6
+#DAA520
+#00008B
+#EE82EE
+#1E90FF
+#FFC0CB
+#D3D3D3
+#228B22
+#F08080
+#20B2AA
+#23272A
+*/
