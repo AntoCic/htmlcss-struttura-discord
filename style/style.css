@@ -1,24 +1,55 @@
 /* -- RESET -- */
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 ul,
 ol menu {
-	list-style: none;
+  list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 /* -- LAYOUT -- */
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-100{
+  width: 100%;
+}
+.col-20{
+  width: 20%;
+}
+.col-60{
+  width: 60%;
+}
+.col-40{
+  width: 40%;
+}
+
+/* penso di cambiare questa cosa e gestirla diversamente */
+.col-32{
+  width: 32%;
+}
+.col-17{
+  width: 17%;
+}
+
 
 /* -- GENERAL STYLE -- */
 
@@ -29,12 +60,12 @@ img {
 }
 
 .debug .row {
-  background-color:blueviolet;
+  background-color: blueviolet;
   padding: 10px;
 }
 
 /* ho visto come aveva fatto Gian nella lezione ma se ti puo fare piacere non ho fatto copia e incolla ;) */
-.debug [class^='col'] {
+.debug [class^="col"] {
   border: 1px solid rgba(255, 0, 0, 0.39);
   padding: 10px;
   min-height: 10px;
