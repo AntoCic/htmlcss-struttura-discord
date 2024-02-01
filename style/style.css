@@ -50,12 +50,24 @@ img {
   width: 17%;
 }
 
+.rowH-min-standard{
+  min-height: 200px;
+}
+
+.rowH-min-400{
+  min-height: 400px;
+}
+
 /* -- GENERAL STYLE -- */
 .link-nav{
   text-align: center;
 }
 .login{
   text-align: right;
+}
+
+aside .container{
+  max-width: 600px;
 }
 
 /* -- DEBUG -- */
