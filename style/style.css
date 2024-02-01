@@ -70,6 +70,11 @@ aside .container{
   max-width: 600px;
 }
 
+.footer-bt{
+  display: flex;
+  justify-content: space-between;
+}
+
 /* -- DEBUG -- */
 .debug .container {
   background-color: aqua;
