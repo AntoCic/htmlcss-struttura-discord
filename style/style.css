@@ -50,8 +50,13 @@ img {
   width: 17%;
 }
 
-
 /* -- GENERAL STYLE -- */
+.link-nav{
+  text-align: center;
+}
+.login{
+  text-align: right;
+}
 
 /* -- DEBUG -- */
 .debug .container {
